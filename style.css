@@ -1,0 +1,125 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('bgimg.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 6rem 0 0 0;
+    font-weight: normal;
+}
+
+.countdown-container{
+    background-color: black;
+    border: 1rem solid black;
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.2rem;
+}
+
+footer{
+    margin-top: 30em;
+}
+
+@media (max-width: 800px){
+    h1{
+        font-size: 1.8rem;
+        margin: 6rem 0 0 0;
+        font-weight: normal;
+    }
+
+    .big-text{
+        font-size: 6rem;
+        line-height: 1;
+        margin: 1rem .5rem;
+    }
+    
+    .countdown-container{
+        background-color: black;
+        border: 1rem solid black;
+        border-radius: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px){
+
+    h1{
+        font-size: 1.2rem;
+    }
+    .countdown-container{
+        background-color: black;
+        border: 1rem solid black;
+        border-radius: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        transform: scale(0.8);
+    }
+    .big-text{
+        font-size: 3rem;
+        line-height: 1;
+        margin: 1rem .5rem;
+    }
+    .countdown-el span{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 320px){
+
+    h1{
+        font-size: 1rem;
+    }
+    .countdown-container{
+        background-color: black;
+        border: 1rem solid black;
+        border-radius: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        transform: scale(0.8);
+    }
+    .big-text{
+        font-size: 1.4rem;
+        line-height: 1;
+        margin: 1rem .5rem;
+    }
+    .countdown-el span{
+        font-size: .8rem;
+    }
+    .pontos{
+        font-size: 1.4;
+    }
+}
+
+
